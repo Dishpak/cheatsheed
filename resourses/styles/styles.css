@@ -63,11 +63,15 @@ header p {
 nav {
     text-align: center;
     background-color: #EAD6CD;
-    padding: 20px 0;
 }
 nav ul li {
     display: inline-block;
-    margin-right: 20px;
+    padding: 20px;
+    margin-right: -4px;
+    min-width: 50px;
+}
+nav ul li:hover {
+    background-color: #9CF6FB;
 }
 
 nav a {
@@ -91,8 +95,8 @@ table {
     display: inline-block;
 }
 
-table, table td {
-    border: 3px solid black;
+table, table tr {
+    border: 1px solid #9CF6FB;
 }
 
 table td {
