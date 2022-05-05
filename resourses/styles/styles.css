@@ -1,0 +1,139 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* COMMON */
+a {
+    text-decoration: none;
+}
+header, nav, main, footer {
+    width: 100%;
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* TYPO */
+h1, h2 {
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: hsl(60, 20%, 20%);
+
+}
+
+table td {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+figcaption {
+    font-style: italic;
+}
+
+/* HEADER & NAVIGATION */
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #9CF6FB;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+nav {
+    text-align: center;
+    background-color: #EAD6CD;
+    padding: 20px 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: hsl(60, 20%, 20%);
+}
+
+/* MAIN */
+
+main {
+    background-color: lightgreen;
+}
+
+main h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 50%;
+    line-height: 2;
+    display: inline-block;
+}
+
+table, table td {
+    border: 3px solid black;
+}
+
+table td {
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+table thead tr {
+    background-color: #EAD6CD;
+    text-align: center;
+}
+
+table tr:hover:not(thead tr) {
+    background-color: #9CF6FB; 
+}
+
+
+article {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 100px 50px;
+    background-color: #E5B9A8;
+}
+
+article h2 {
+    text-align: center;
+}
+
+figure {
+    display: inline-block;
+    width: 40%;
+    float: right;
+}
+
+figcaption {
+    text-align: right;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+footer {
+    min-height: 100px;
+    background-color: #9CF6FB;
+}
